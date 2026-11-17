@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contact.</title>
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/1200x/91/c0/c8/91c0c8d368f5c376c550d3ee6cea8188.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .form{
+            width: 350px;
+            margin:90px auto;
+            background-color: rgba(128, 128, 128, 0.67);
+            border-radius: 20px;
+            padding: 20px;
+            border: 2px solid rgb(241, 239, 239); 
+        }
+        .title-contact{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+        .sub-title{
+            color: white;
+            text-align: center;
+        }
+        .label-input{
+            color: white;
+            font-size: 20px;
+        }
+        .form-input{
+            width: 90%;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            background-color: rgba(227, 230, 227, 0.423);
+            box-shadow: 1px 1px 9px 9px rgba(224, 228, 226, 0.314) inset;
+            color: aliceblue;
+            padding: 10px
+        }
+        .form-textarea{
+            color: aliceblue;
+            width: 90%;
+            height: 120px;
+            padding: 10px;
+            font-size: 15px;
+            border: 2px solid rgb(238, 236, 236);
+            border-radius: 10px;
+            background-color: rgba(240, 248, 255, 0.431);
+        }
+        .form-checkbox{
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #315E4B;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+}
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+        <h1 class="title-contact">Contact For More</h1>
+        <p class="sub-title"><i>Please Contact for more.</i><br>
+        Can contact if you have somthing to me.</p>
+
+        <label class="label-input">Frist Name:</label><br>
+
+        <input class="form-input" type="text" name="name" placeholder="Frist Name"><br><br>
+
+        <label class="label-input">Last Name:</label><br>
+        
+        <input class="form-input" type="text" name="name" placeholder="Last Name"><br><br>
+
+        <label class="label-input">Email addrees:</label><br>
+
+        <input class="form-input" type="email" name="email" placeholder="Email"><br><br>
+
+        <label class="label-input">Phone Number:</label><br>
+
+        <input class="form-input" type="tel" name="phone" placeholder="Phone number"><br><br>
+        
+        <label class="label-input" >Message:</label><br>
+        <textarea class="form-textarea" placeholder="Write your message"></textarea><br><br>
+
+        <input class="form-checkbox" type="checkbox" name="terms">
+        <label class="label-input">Remember Me</label><br><br>
+
+        <button class="submit-btn" type="submit">Send Message</button>
+    </form>
+</body>
+</html>
